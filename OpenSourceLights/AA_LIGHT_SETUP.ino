@@ -74,13 +74,13 @@ const PROGMEM uint16_t Schemes[NumSchemes][NumLights][NumStates] =
             //     SCHEME TWO - BLANK
             //     Pos 1      Pos 2      Pos 3      Pos 4       Pos 5     Forward     Reverse     Stop      StopDelay   Brake     Right Turn     Left Turn      Accelerating   Decelerating
             // ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 1    --
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 2    --
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 3    --
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 4    --
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 5    --
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 6    --
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 7    --
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 1   Headlight High Beam
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 2   Headlight Low Beam
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 3   Brake Lights
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 4   Right Turn Signals
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 5   Left Turn Signals
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 6   Reverse Lights
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 7   Bumper Lights
             {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}  // Light 8    --
         },
         {
