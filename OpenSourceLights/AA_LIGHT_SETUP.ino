@@ -81,7 +81,7 @@ const PROGMEM uint16_t Schemes[NumSchemes][NumLights][NumStates] =
             {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 5   Left Turn Signals
             {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 6   Reverse Lights
             {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}, // Light 7   Bumper Lights
-            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}  // Light 8    --
+            {OFF, OFF, OFF, OFF, OFF, NA, NA, NA, NA, NA, NA, NA, NA, NA}  // Light 8   
         },
         {
             //                                     IF CHANNEL 3 is only 3-position switch, values in Pos2 and Pos4 will be ignored (just use Pos1, Pos3, Pos5)
